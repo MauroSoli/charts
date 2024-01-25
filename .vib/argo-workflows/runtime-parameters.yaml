@@ -27,7 +27,7 @@ postgresql:
 mysql:
   enabled: false
 # The service account running the workflows needs to have 'patch' privileges on pods for the given namespace
-# In our tests, that combination is 'default/default'
+# In our tests, that combination is 'default/test-argo'
 extraDeploy:
   - |-
     apiVersion: v1
