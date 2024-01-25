@@ -1,7 +1,7 @@
 {
   "metadata": {
     "name": "vib-testing-template-7t1b6",
-    "namespace": "default",
+    "namespace": "test-argo",
     "labels": {
       "vib": "testing"
     }

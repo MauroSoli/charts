@@ -27,7 +27,8 @@ it('allows submitting a workflow using a template created from a file', () => {
     cy.contains(workflowName);
   });
 
-  cy.visit('/workflows');
+  // Run worflow associated to custom namespace
+  cy.visit('/workflows/test-argo');
 
   cy.contains('Submit New').click({ force: true });
   cy.get('.sliding-panel__body').should('be.visible').within(() => {
